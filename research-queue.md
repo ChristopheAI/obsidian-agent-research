@@ -38,5 +38,5 @@
 - [ ] Decide git strategy for MyCVHVault (direct vs mirror) - precondition for writes (H6).
 - [ ] Prototype a read-only `.base` over Sources/Topics/Decisions (H3).
 - [ ] Test prompt-injection resistance with an adversarial note (H5, ties to FM-5).
-- [ ] Re-run X.com practitioner sweep once Chrome extension is connected.
+- [x] X.com practitioner sweep done intent-first (2026-06-06) — see `sources/x-sweep-2026-06-06.md`.
 

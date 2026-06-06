@@ -42,6 +42,17 @@ This file tracks sources inspected for Obsidian agent setup decisions.
 | 2026-06-06 | obsidian.md/blog/json-canvas + spec | Official | A | MIT open format, multi-language libs = durable agent artifacts | Durability bet |
 | 2026-06-06 | notes-automate.com Bases "review" 2026 | SEO | C | Claims SQLite/relations/rollups already ship — contradicts roadmap | Distrust; do not cite |
 
+### X.com block (2026-06-06 intent-first sweep — see `x-sweep-2026-06-06.md`)
+
+| Date | Source | Type | Evidence grade | Why it matters | Follow-up |
+|---|---|---|---|---|---|
+| 2026-06-06 | @kepano (from: search) | X / authority | A | "writing is thinking", anti-"second brain"; Obsidian user-supported, no VC | Watch for direction signals |
+| 2026-06-06 | @nurijanian (160K views) | X / practitioner | B | Claude Code + Obsidian PM stack; context 15min→<1min; validates tobi/qmd | QMD is real retrieval tool |
+| 2026-06-06 | @Artifexx / Ilya Shabanov (34K) | X / practitioner | B | Bases > Notion; video of academic Papers-by-Year base | Bases-for-research pattern |
+| 2026-06-06 | @kpmdev Kyle McDonald | X / practitioner | B | Self-hosted scoped MCP on homelab, "talk to vault from Claude on the go" | Supports H5 |
+| 2026-06-06 | @cyrilXBT, @Atenov_D | X / influencer | C | "Obsidian = JARVIS in 1h"; "manual vault dies in a week" — dominant hype | Discount; capability signal only |
+| 2026-06-06 | X contrarian lens (slop/regret/abandoned) | X / meta | C | Barren of real critique; keywords surface pro-AI marketing | Do NOT source failure modes from X |
+
 ## Evidence Grades
 
 - A: primary source, code/docs/repo, directly inspectable

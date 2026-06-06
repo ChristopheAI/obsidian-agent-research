@@ -33,7 +33,8 @@ Adopt the smallest capability that improves retrieval, continuity, or decision q
 ## Evidence Rules
 
 - GitHub repos and official docs outrank X hype.
-- X posts are practitioner signals, not final proof.
+- X posts are practitioner signals, not final proof. X is a capability-discovery sensor, NOT a risk sensor — it is overwhelmingly promotional; source failure modes from blogs/Reddit, never X (see `sources/x-sweep-2026-06-06.md`).
+- Search X intent-first: derive queries from the decision + evidence lenses and use operators (`from:`, `min_faves:`, `filter:media`); never broad keyword + shallow scroll.
 - YouTube videos are useful when they show workflows, screens, commands, or failures.
 - Claims about current tooling need dates.
 - Any proposed vault write behavior needs a rollback path.

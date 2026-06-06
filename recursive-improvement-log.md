@@ -76,3 +76,28 @@ Next improvement:
 - Decide git strategy for MyCVHVault (H6) - the gate to any write experiment.
 - Prototype a read-only `.base` (H3) and compare CLI vs scoped MCP (H5).
 
+## 2026-06-06 (X.com sweep, intent-first)
+
+Live logged-in X sweep — see `sources/x-sweep-2026-06-06.md`.
+
+Method correction (from Christophe): a first keyword + shallow-scroll pass caught
+almost nothing. Redone intent-first: queries derived from the decision + evidence
+lenses, using X operators (`from:`, `min_faves:`, `f=top`) to surface high-utility
+posts and cut hype. This is the standard for X going forward.
+
+What changed:
+
+- **QMD validated** by a serious independent practitioner (@nurijanian, 160K views) -
+  strengthens the "evaluate QMD" line. Tobi Lütke's tool.
+- **kepano (authority) reinforces our stance**: "writing is thinking", anti
+  "second brain" - supports keeping synthesis human-owned (FM-1).
+- Obsidian = independent, user-supported, principled - durable substrate.
+- Self-hosted **scoped MCP on a homelab** is a real working pattern (H5).
+- The popular shared vault template on X ≈ MyCVHVault (numbered-prefix hybrid).
+
+Evidence-rule learning:
+
+- **X is a capability-discovery sensor, not a risk sensor.** It is overwhelmingly
+  promotional; even critique keywords surface marketing. Source failure modes from
+  blogs/Reddit, never X. (Added as an explicit rule below.)
+
