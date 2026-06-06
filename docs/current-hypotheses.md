@@ -39,10 +39,21 @@ Needs evidence:
 
 The self-rewriting vault concept is powerful but conflicts with Christophe's preference that final topics and decisions remain human-owned.
 
-Status: active
+Status: strengthened (2026-06-06)
 
-Needs evidence:
+Evidence found - see `docs/failure-modes.md`:
 
-- Find practitioner reports of failure modes.
-- Define rollback requirements for any rewrite system.
+- Practitioner failure modes confirmed: authorship contamination (FM-1),
+  hallucination-becomes-canon with self-lint that cannot catch it (FM-2),
+  meaning drift on rewrites (FM-3), catastrophic sync data loss (FM-4),
+  prompt injection via note content (FM-5).
+- Steph Ango (Obsidian CEO) himself advises keeping AI content in a separate
+  vault (FM-6).
+
+Rollback requirements for any future rewrite system (acceptance criteria):
+
+- Git versioning + proven backup before any autonomous write.
+- Deletion circuit breaker (abort if file count drops below threshold).
+- Untrusted-content handling for ingested adversarial documents.
+- Diff-first + do-not-edit list for `02 Topics` and `04 Decisions`.
 
