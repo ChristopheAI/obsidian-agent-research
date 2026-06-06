@@ -52,6 +52,7 @@ This file tracks sources inspected for Obsidian agent setup decisions.
 | 2026-06-06 | @kpmdev Kyle McDonald | X / practitioner | B | Self-hosted scoped MCP on homelab, "talk to vault from Claude on the go" | Supports H5 |
 | 2026-06-06 | @cyrilXBT, @Atenov_D | X / influencer | C | "Obsidian = JARVIS in 1h"; "manual vault dies in a week" — dominant hype | Discount; capability signal only |
 | 2026-06-06 | X contrarian lens (slop/regret/abandoned) | X / meta | C | Barren of real critique; keywords surface pro-AI marketing | Do NOT source failure modes from X |
+| 2026-06-06 | @cyrilXBT "Second Brain that connects every idea" (X Article) | X / build guide | B | Concrete guide; `05-INTELLIGENCE` AI-output quarantine = clean FM-1 fix | Drove ADR-003; see source note |
 
 ## Evidence Grades
 
