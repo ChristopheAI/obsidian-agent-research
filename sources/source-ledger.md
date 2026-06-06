@@ -54,6 +54,7 @@ This file tracks sources inspected for Obsidian agent setup decisions.
 | 2026-06-06 | X contrarian lens (slop/regret/abandoned) | X / meta | C | Barren of real critique; keywords surface pro-AI marketing | Do NOT source failure modes from X |
 | 2026-06-06 | @cyrilXBT "Second Brain that connects every idea" (X Article) | X / build guide | B | Concrete guide; `05-INTELLIGENCE` AI-output quarantine = clean FM-1 fix | Drove ADR-003; see source note |
 | 2026-06-03 | @cyrilXBT "Set Up Obsidian From Scratch" (X Article, 111K views) | X / build guide | B | Radical minimalism: "not to capture everything; think better." Same author's simple post out-reaches his maximalist one 3:1 | Counterweight to over-building; see source note |
+| 2026-05-30 | @cyrilXBT "Replaced my $500/month stack" (X Article, 306K views) | X / build guide | B | His most-viewed; keystone = the weekly review ("covers everything" = a ritual, not a machine). View gradient 306K/111K/39K as AI/complexity rises | See source note; converges w/ our research |
 
 ## Evidence Grades
 
