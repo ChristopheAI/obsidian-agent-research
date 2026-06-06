@@ -32,3 +32,11 @@
 - Determine whether Bases can query Sources/Topics/Decisions without migration.
 - Create a proposed root `AGENTS.md` draft before writing into the vault.
 
+## Access & safety (from 2026-06-06 exploration)
+
+- [ ] Compare official Obsidian CLI vs cyanheads scoped MCP server for our workflow.
+- [ ] Decide git strategy for MyCVHVault (direct vs mirror) - precondition for writes (H6).
+- [ ] Prototype a read-only `.base` over Sources/Topics/Decisions (H3).
+- [ ] Test prompt-injection resistance with an adversarial note (H5, ties to FM-5).
+- [ ] Re-run X.com practitioner sweep once Chrome extension is connected.
+

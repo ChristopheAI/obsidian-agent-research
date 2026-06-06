@@ -28,12 +28,47 @@ Needs evidence:
 
 Bases may expose promotion queues, source status, active projects, and decisions without adopting Notion or adding heavy tooling.
 
-Status: active
+Status: strengthened (2026-06-06) - see `docs/exploration-2026-06-06.md`
+
+Evidence found:
+
+- Bases is a core plugin since 1.9 with table/cards/list/map views, formulas,
+  summaries, groupBy; outperforms Dataview at 50k notes.
+- Real practitioners run multi-Base "operating systems"; kepano's skill generates
+  valid `.base` files, so an agent can author dashboards directly.
+- Caveat: no task/checkbox rollups or calendar widgets yet; Kanban/API are roadmap.
+
+Still needs:
+
+- Create a read-only prototype `.base` over Sources/Topics/Decisions.
+- Verify frontmatter is consistent enough to filter on.
+
+## H5 - The safe agent access model is scoped, not raw filesystem
+
+The right way to let an agent touch the vault is a folder-scoped MCP server (e.g.
+cyanheads with READ/WRITE_PATHS + READ_ONLY) or the official Obsidian CLI with
+`--dry-run`, never raw filesystem access or a YOLO subprocess.
+
+Status: active (new 2026-06-06)
 
 Needs evidence:
 
-- Create a read-only prototype `.base`.
-- Verify it renders correctly in Obsidian.
+- Compare official CLI vs a scoped MCP server for our workflow.
+- Confirm scoping keeps private folders (e.g. `01 Daily`) out of agent reach.
+- Test prompt-injection resistance with an adversarial note.
+
+## H6 - Obsidian Git is the rollback substrate
+
+Auto commit-and-sync makes every agent edit an atomic, revertible commit. This is
+the precondition the guardrails in `ADR-002` / `failure-modes.md` require before
+any write autonomy is allowed.
+
+Status: active (new 2026-06-06)
+
+Needs evidence:
+
+- Decide: git on MyCVHVault directly, or a backup/mirror? (vault has private content)
+- Verify auto-commit cadence does not fight Obsidian Sync / iCloud.
 
 ## H4 - Autonomous self-rewriting is too risky for phase 1
 

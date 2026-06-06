@@ -7,12 +7,13 @@ Last updated: 2026-06-06
 | Capability | What it enables | Evidence so far | Current stance |
 |---|---|---|---|
 | Obsidian Markdown skills | Agents write valid wikilinks, properties, embeds, callouts | `kepano/obsidian-skills` | Adopt |
-| Obsidian Bases | Dashboard/query views over notes using properties and filters | `kepano/obsidian-skills`, Obsidian docs | Adapt |
-| JSON Canvas | Agent-created system maps and visual flows | `kepano/obsidian-skills`, JSON Canvas spec | Adapt narrowly |
-| Obsidian CLI | Vault-aware read/create/search/property operations when Obsidian is running | `kepano/obsidian-skills` | Evaluate |
-| Defuddle | Web-to-markdown extraction for cleaner source ingest | `kepano/obsidian-skills` | Evaluate |
+| Obsidian Bases | Dashboard/query views over notes (table/cards/list/map, formulas, summaries, groupBy). Core plugin since 1.9. Beats Dataview perf at scale. Agent-writable `.base` YAML | `kepano/obsidian-skills`, Obsidian docs/changelog, exploration-2026-06-06 | Adopt as dashboard layer (H3) |
+| JSON Canvas | Agent-created system maps and visual flows. MIT open format, multi-language libs | `kepano/obsidian-skills`, JSON Canvas spec | Adapt narrowly |
+| Obsidian CLI | Official, v1.12+ native binary, 100+ commands. Markets "vault access without full-computer access" + headless sync. The sanctioned automation surface | obsidian.md/cli, `kepano/obsidian-skills` | Evaluate as primary access surface |
+| Defuddle | Web-to-markdown extraction (powers official Web Clipper); `status: inbox` triage flow | `kepano/obsidian-skills`, obsidian.md/clipper | Adopt for source ingest |
 | QMD semantic search | Meaning-based retrieval over vault notes | `breferrari/obsidian-mind` | Evaluate after basic retrieval map |
-| MCP / Local REST API | Tool-level read/write/search access to vault | X signals, Local REST API references, MCP repos | Revisit later |
+| MCP / Local REST API | Tool-level read/write/search access. Local REST API now ships a built-in MCP server; cyanheads server adds folder scoping + READ_ONLY kill switch (safest). Ecosystem has real command-injection/prompt-injection risks | exploration-2026-06-06, cyanheads, OX Security | Evaluate; scoped + read-only first |
+| Git rollback (Obsidian Git) | Auto commit-and-sync: every agent edit is an atomic, revertible commit. The rollback substrate | Vinzent03/obsidian-git, exploration-2026-06-06 | Adopt before any write (H6) |
 | Session lifecycle hooks | Startup context, message classification, write validation, wrap-up | `breferrari/obsidian-mind` | Adapt after policies exist |
 | AI-first note rules | Self-contained notes for future agents | `obsidian-second-brain` | Adapt selectively |
 | Self-rewriting vault | Sources rewrite existing pages, reconcile contradictions | `obsidian-second-brain` | Postpone |

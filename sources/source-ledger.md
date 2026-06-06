@@ -21,6 +21,27 @@ This file tracks sources inspected for Obsidian agent setup decisions.
 | 2026-06-06 | vibecoding / claudeskills.info / gentic.news / ngjoo / sourcepulse | Aggregator/SEO | C | README restatements; used for facts only, not judgment | Ignore for decisions |
 | 2026-06-06 | theaioperator.io (obsidian-second-brain author) | Author promo | C | Creator's own framing; bias-marked, kept out of risk analysis | Background |
 
+### Exploration block (2026-06-06 hungry sweep)
+
+| Date | Source | Type | Evidence grade | Why it matters | Follow-up |
+|---|---|---|---|---|---|
+| 2026-06-06 | Obsidian Bases syntax docs + changelog 1.12.4 | Official docs | A | Views/filters/formulas/summaries; drag-drop import, search, plugin API | Confirm exact .base syntax before writing |
+| 2026-06-06 | Obsidian roadmap | Official | A | Kanban (~May 2026), Bases search, Bases API NOT yet shipped; multiplayer late 2026 | Watch for Bases API |
+| 2026-06-06 | practicalpkm "Moving to Bases from Dataview" | Practitioner | B | Bases beats Dataview perf at 50k notes; migration path | Reference for H3 |
+| 2026-06-06 | dev.to/rlschlesinger "Everything lives in Obsidian" | Practitioner | B | Real 8-Base solo "OS" (projects/tasks/CRM/revenue/content) | Pattern source |
+| 2026-06-06 | wanderloots Bases project management | Practitioner | B | Per-note dashboards via `project contains this.file` | Pattern source |
+| 2026-06-06 | Local REST API plugin (built-in MCP server) | Official plugin | A | In-app MCP server, bearer auth, surgical vault_patch; 3rd-party now optional | Evaluate as in-app access |
+| 2026-06-06 | cyanheads/obsidian-mcp-server | GitHub repo | A | Folder scoping (READ/WRITE_PATHS) + READ_ONLY kill switch = safest write model | Candidate for safe write zone |
+| 2026-06-06 | Official Obsidian CLI (obsidian.md/cli) | Official | A | 100+ cmds, native binary, "vault access without full-computer access" + headless sync | Sanctioned automation surface |
+| 2026-06-06 | sokojh/obsidian-vault (`ov`) | GitHub repo | B | Agent-first CLI: JSON I/O, --dry-run, schema introspection | Compare to official CLI |
+| 2026-06-06 | RAIT-09/obsidian-agent-client | GitHub repo | A | ACP brings Claude Code/Codex/Gemini inside Obsidian (~1937 stars) | Inspect access/security model |
+| 2026-06-06 | OX Security MCP supply-chain; THN mcp-server-git RCE | Security report | A | Systemic MCP command-injection + prompt-injection RCE | Hard constraint on any MCP adoption |
+| 2026-06-06 | Vinzent03/obsidian-git | GitHub repo | A | Auto commit-and-sync = atomic revertible rollback for agent edits | Set up before any write (H6) |
+| 2026-06-06 | obsidian.md/clipper + kepano/defuddle | Official | A | Web Clipper uses Defuddle; `status: inbox` triage flow | Capture pipeline pattern |
+| 2026-06-06 | st3v3nmw/spaced-repetition; whisper-obsidian-plugin | GitHub repos | A | FSRS spaced repetition; voice→transcribe→LLM cleanup | Optional capture add-ons |
+| 2026-06-06 | obsidian.md/blog/json-canvas + spec | Official | A | MIT open format, multi-language libs = durable agent artifacts | Durability bet |
+| 2026-06-06 | notes-automate.com Bases "review" 2026 | SEO | C | Claims SQLite/relations/rollups already ship — contradicts roadmap | Distrust; do not cite |
+
 ## Evidence Grades
 
 - A: primary source, code/docs/repo, directly inspectable

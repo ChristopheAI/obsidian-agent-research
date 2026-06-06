@@ -46,3 +46,33 @@ Next improvement:
 - Confirm whether autonomous write is even wanted, or only better human-owned
   write-back. That single answer sets the phase-2 scope.
 
+## 2026-06-06 (hungry exploration sweep)
+
+Broad sweep beyond the three repos: four parallel research agents on Bases,
+MCP/agent access, automation, and novel/2026 uses. See `docs/exploration-2026-06-06.md`.
+
+What changed:
+
+- **Bases is much stronger than assumed** - core plugin, real multi-Base "OS"
+  builds, agent-writable. H3 upgraded from "active" to "strengthened".
+- **A real MCP/access landscape exists** - the repo had this as "revisit later".
+  Now we have concrete, security-graded options: built-in Local REST API MCP
+  server, cyanheads scoped server (safest), official CLI as sanctioned surface.
+  Added H5 (scoped access model).
+- **Found the rollback substrate**: Obsidian Git. Added H6 (set up before writes) -
+  this unblocks the precondition that ADR-002 / failure-modes.md require.
+- **Direction confirmed**: Obsidian is positioning as an agent *substrate* (open
+  files + CLI + Skills), validating this repo's premise.
+- Real security warnings logged (MCP command-injection, git MCP RCE) - hard
+  constraints on any MCP adoption.
+
+Gap / honesty:
+
+- X.com was NOT covered - Chrome extension not connected, so the skill's mandated
+  X path is missing. Queued for re-run once paired.
+
+Next improvement:
+
+- Decide git strategy for MyCVHVault (H6) - the gate to any write experiment.
+- Prototype a read-only `.base` (H3) and compare CLI vs scoped MCP (H5).
+
